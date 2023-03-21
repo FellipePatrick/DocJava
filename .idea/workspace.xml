@@ -4,30 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c816c86-c20d-407f-a9ae-e8cc348277a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/Motor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/testeCarro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4c816c86-c20d-407f-a9ae-e8cc348277a9" name="Changes" comment="adiconando pacote carro">
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/compra/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/compra/CompraTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/compra/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/curso/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/curso/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/curso/testeCursos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/desafio/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/desafio/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/desafio/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/desafio/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/desafio/testeCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/RelacionamentoUMparaUm/Carro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/RelacionamentoUMparaUm/Motor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/RelacionamentoUMparaUm/TesteCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/desafio1/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/desafio1/ClienteTeste.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/desafio1/Compra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/desafio1/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/desafio1/Produto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/muitosparamuitos/Aluno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/muitosparamuitos/Curso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/muitosparamuitos/CursoTeste.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/umparamuitos/Compra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/umparamuitos/Comprateste.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/composicao/umparamuitos/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/heranca/enum/Direcao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/heranca/enum/Jogador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/heranca/enum/Jogo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloUm/Atividade01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuloUm/Atividade01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +37,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KCdJb6HvJH3D1xzUKSN6CcPeMz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,7 +47,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,6 +60,18 @@
       <option name="presentableId" value="Default" />
       <updated>1673482435454</updated>
     </task>
+    <task id="LOCAL-00001" summary="adiconando pacote carro">
+      <created>1679324922257</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679324922257</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adiconando pacote carro" />
+    <option name="LAST_COMMIT_MESSAGE" value="adiconando pacote carro" />
   </component>
 </project>
