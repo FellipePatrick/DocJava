@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c816c86-c20d-407f-a9ae-e8cc348277a9" name="Changes" comment="adiconando pacote carro">
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/compra/Compra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/compra/CompraTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/compra/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/curso/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/curso/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/curso/testeCursos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/desafio/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/desafio/Compra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/desafio/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/desafio/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/composicao/desafio/testeCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/Direcao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/Heroi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/Jogador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/Jogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/Monstro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/desafio/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/desafio/Civic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/desafio/Ferrari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/desafio/Teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
