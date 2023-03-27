@@ -1,24 +1,35 @@
 package ModuloCinco.oo.heranca.desafio;
 
 public class Carro {
-    private int velocidade = 5;
+    final int VelocidadeMaxima;
+    private int velocidade;
+    private int velocidadeAtual;
+
+    Carro(int velocidade, int vMaxima){
+        this.velocidade = velocidade;
+        this.VelocidadeMaxima = vMaxima;
+    };
     void acelerar(){
-        velocidade += this.velocidade;
+       if(velocidade + velocidadeAtual  > VelocidadeMaxima){
+           velocidadeAtual = VelocidadeMaxima;
+       }else {
+           velocidadeAtual = velocidadeAtual + velocidade;
+       }
     }
     void frear(){
-        if(velocidade  <= 0){
+        if(velocidadeAtual  <= 0){
             System.out.println("Não tem como frear um carro desligado");
         }else{
-            velocidade -= this.velocidade;
+            velocidadeAtual -= velocidade;
         }
     }
     int getVelocidade(){
-        return this.velocidade;
+        return this.velocidadeAtual;
     }
-    void setVelocidade(int n){
-        this.velocidade = n;
+    void setVelocidade(int velocidade){
+        this.velocidade =  velocidade;
     }
     public String  toString(){
-        return "A velocidade atual do carro é: " + this.velocidade + "km";
+        return "A velocidade atual do carro é: " + velocidadeAtual + "km/h";
     }
 }

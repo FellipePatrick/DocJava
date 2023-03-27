@@ -2,18 +2,13 @@ package ModuloCinco.oo.heranca.desafio;
 
 public class Teste {
     public static void main(String[] args) {
-        Carro carro = new Carro();
 
-        Civic civic = new Civic();
-
-        Ferrari ferrari = new Ferrari();
-
-        ferrari.acelerar();
+        Civic civic = new Civic(10, 40);
         civic.acelerar();
-        ferrari.acelerar();
+        civic.acelerar();
+        civic.acelerar();
+        civic.acelerar();
+        System.out.println(civic.toString());
 
-        ferrari.toString();
-        civic.toString();
-        carro.toString();
     }
 }
