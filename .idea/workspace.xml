@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c816c86-c20d-407f-a9ae-e8cc348277a9" name="Changes" comment="adiconando pacote carro">
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/encapsulamento/casaA/Ana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/encapsulamento/casaA/Carlos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/encapsulamento/casaB/Junior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/Heroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/Heroi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/teste/Jogo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/desafio/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/desafio/Carro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/desafio/Civic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/desafio/Civic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/desafio/Ferrari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/desafio/Ferrari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/desafio/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/desafio/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/desafio/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuloCinco/oo/heranca/teste/Teste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

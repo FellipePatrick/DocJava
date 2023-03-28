@@ -1,6 +1,11 @@
-package ModuloCinco.oo.heranca;
+package ModuloCinco.oo.heranca.teste;
 
-public class Jogo {
+import ModuloCinco.oo.heranca.Direcao;
+import ModuloCinco.oo.heranca.Heroi;
+import ModuloCinco.oo.heranca.Jogador;
+import ModuloCinco.oo.heranca.Monstro;
+
+public class Jogo extends Jogador {
     public static void main(String[] args) {
         Heroi j1 = new Heroi();
         Monstro j2 = new Monstro();

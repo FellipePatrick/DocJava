@@ -1,4 +1,6 @@
-package ModuloCinco.oo.heranca.desafio;
+package ModuloCinco.oo.heranca.teste;
+
+import ModuloCinco.oo.heranca.desafio.Civic;
 
 public class Teste {
     public static void main(String[] args) {
