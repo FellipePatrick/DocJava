@@ -1,2 +1,7 @@
-package ModuloCinco.oo.polimorfismo;public class Sorvete {
+package ModuloCinco.oo.polimorfismo;
+
+public class Sorvete extends Comida{
+    Sorvete(double peso) {
+        super(peso);
+    }
 }

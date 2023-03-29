@@ -1,2 +1,7 @@
-package ModuloCinco.oo.polimorfismo;public class Feijao {
+package ModuloCinco.oo.polimorfismo;
+
+public class Feijao extends Comida{
+    Feijao(double peso) {
+        super(peso);
+    }
 }
