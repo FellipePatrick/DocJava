@@ -8,6 +8,5 @@ public class Main {
         l1.ligar();
         l1.ligar();
         System.out.printf("A potencia é de: " + l1.verificarPotencia());
-
     }
 }
