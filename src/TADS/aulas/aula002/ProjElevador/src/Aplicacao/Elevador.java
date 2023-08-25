@@ -5,7 +5,7 @@ public class Elevador {
     private int andaresTotal;
     private int capacidade;
     private int pessoas;
-    public void inicializar(int capacidade, int andaresTotal){
+    public void inicializar(int capacidade, int andaresTotal) {
         this.capacidade = capacidade;
         this.andaresTotal = andaresTotal;
     }
