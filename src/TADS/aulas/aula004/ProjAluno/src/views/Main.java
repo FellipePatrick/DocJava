@@ -80,22 +80,40 @@ public class Main {
                     break;
                 case 5:
                     if (alunos[0].getNome()!=null){
-                        System.out.println("Digite o numero do aluno de 1 a 3");
-                        cont = teclado.nextInt() - 1;
-                        System.out.println("Nome: " + alunos[cont].getNome());
-                        System.out.println("Matricula: " + alunos[cont].getMatricula());
-                        System.out.println("Situação: "+alunos[cont].getSituacao());
-                        System.out.println("Média: "+alunos[cont].getMedia());
+                        System.out.println("Digite a matricula do aluno desejado: ");
+                        cont = teclado.nextInt();
+                        flag = false;
+                        for(Aluno aluno:alunos){
+                            if(aluno.buscarAluno(cont)){
+                                flag = true;
+                                System.out.println("Nome: " + aluno.getNome());
+                                System.out.println("Matricula: " + aluno.getMatricula());
+                                System.out.println("Situação: "+aluno.getSituacao());
+                                System.out.println("Média: "+aluno.getMedia());
+                            }
+                        }
+                        if(!flag){
+                            System.out.println("Matricula não encontrada!");
+                        }
                     }else{
                         System.out.println("Nenhum aluno foi cadastrado!");
                     }
                     break;
                 case 6:
                     if (alunos[0].getNome()!=null){
-                        System.out.println("Digite o numero do aluno de 1 a 3: ");
-                        cont = teclado.nextInt() - 1;
-                        System.out.println("Digite o codigo da nota de 1 a 3 e a nova nota: ");
-                        alunos[cont].alterarNota(teclado.nextInt(), teclado.nextFloat());
+                        System.out.println("Digite a matricula do aluno desejado: ");
+                        cont = teclado.nextInt();
+                        flag = false;
+                        for(Aluno aluno:alunos){
+                            if(aluno.buscarAluno(cont)){
+                                flag = true;
+                                System.out.println("Digite o codigo da nota de 1 a 3 e a nova nota: ");
+                                aluno.alterarNota(teclado.nextInt(), teclado.nextFloat());
+                            }
+                        }
+                        if(!flag){
+                            System.out.println("Matricula não encontrada!");
+                        }
                     }else{
                         System.out.println("Nenhum aluno foi cadastrado!");
                     }

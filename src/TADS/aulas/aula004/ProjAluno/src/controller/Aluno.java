@@ -35,11 +35,11 @@ public class Aluno {
     }
 
     public String getSituacao() {
-        if(this.media <= 3){
+        if(this.media < 3){
             return "Reprovado";
-        } else if (this.media >= 4 && this.media <= 5) {
+        } else if (this.media >= 3 && this.media <= 6) {
             return "Recuperação";
-        } else if (this.media >= 6 && this.media <= 7) {
+        } else if (this.media == 7) {
             return "Aprovado";
         }else{
             return "Aprovado com exito!";
@@ -59,7 +59,7 @@ public class Aluno {
     }
 
     public void calcularMedia(){
-        this.media = (this.n1+this.n2+this.n3)/3;
+        this.media = ((this.n1 * 4)+(this.n2*5)+(this.n3*6))/15;
     }
 
     public String alterarNota(int codNota, float valorNota){
