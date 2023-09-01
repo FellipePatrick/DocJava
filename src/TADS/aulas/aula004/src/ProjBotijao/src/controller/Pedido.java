@@ -2,8 +2,8 @@ package controller;
 import java.util.Random;
 public class Pedido {
 
-    Random random = new Random();
     private String endereco;
+    private boolean status;
     private int horaCompra;
     private int quantidade;
     private double totalCompras;
@@ -15,6 +15,10 @@ public class Pedido {
         return endereco;
     }
 
+    public Boolean getStatus(){
+        return status;
+    }
+
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
@@ -24,10 +28,11 @@ public class Pedido {
     }
 
     public void setHoraCompra(int horaCompra) {
+        this.horaCompra = horaCompra;
         if(horaCompra > 23){
-            this.horaCompra = horaCompra - 24;
+            this.horaEntrega = (horaCompra-24) + 6;
         }else{
-            this.horaCompra = horaCompra;
+            this.horaEntrega = horaCompra + 6;
         }
     }
 
@@ -52,24 +57,21 @@ public class Pedido {
         return horaEntrega;
     }
 
-    public void setHoraEntrega(int horaEntrega) {
-        this.horaEntrega = horaEntrega;
-    }
-
     public int getCartaoCredito() {
         return cartaoCredito;
     }
 
     public void setCartaoCredito(int cartaoCredito) {
         this.cartaoCredito = cartaoCredito;
+        setCodigoPedido();
     }
 
     public int getCodigoPedido() {
         return codigoPedido;
     }
 
-    public void setCodigoPedido(int codigoPedido) {
-        this.codigoPedido = codigoPedido;
+    private void setCodigoPedido() {
+        this.codigoPedido++;
     }
 
     public boolean isStatus() {
@@ -80,7 +82,6 @@ public class Pedido {
         this.status = status;
     }
 
-    private boolean status = false;
 
     public Pedido(String endereco, int horaCompra){
         this.horaCompra = horaCompra;
@@ -94,10 +95,6 @@ public class Pedido {
 
     public boolean buscaCodigo(int codigo){
         return codigo == this.codigoPedido;
-    }
-
-    private void geraCodigo(){
-        this.codigoPedido = random.nextInt(100000);
     }
 
 }
