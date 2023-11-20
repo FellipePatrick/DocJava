@@ -1,21 +1,21 @@
-package controler;
-
-import java.util.ArrayList;
+package controller;
 
 public class Voo {
     private int hora;
-    // private int numero; A FAZER
-    private boolean[] cadeiras = new boolean[100];
+    private int numero;
+    private boolean[] cadeiras;
     private Data data;
-    public Voo(int hora, Data data) {
-        for(int i = 0; i < 100;i++){
-            cadeiras[i] = true;
-        }
+    public Voo(int numero, int hora, Data data, int nM) {
         this.hora = hora;
         this.data = data;
+        this.numero = numero;
+        this.cadeiras = new boolean[nM];
+        for(int i = 0; i < nM;i++){
+            cadeiras[i] = true;
+        }
     }
     public int proximoLivre() {
-        if (cadeiras.length + 1 <= 100) {
+        if (cadeiras.length + 1 <= cadeiras.length) {
             return cadeiras.length + 1;
         }else {
             return 0;
@@ -33,7 +33,7 @@ public class Voo {
     }
     public int vagas(){
         int cont = 0;
-        for(int i = 0; i < 100;i++){
+        for(int i = 0; i < cadeiras.length;i++){
             if(cadeiras[i]){
                cont++;
             }

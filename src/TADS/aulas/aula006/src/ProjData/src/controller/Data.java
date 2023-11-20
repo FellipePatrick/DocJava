@@ -1,4 +1,4 @@
-package controler;
+package controller;
 
 public class Data {
     private int dia;
