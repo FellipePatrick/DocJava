@@ -4,12 +4,20 @@ public class Dependentes {
     private int id;
     private String nome_d;
     private int idade;
-    public void Dependentes(){};
+    private int cpf_s;
+    public Dependentes(){};
 
-    public Dependentes(int id, String nome_d, int idade) {
+    public Dependentes(int id, String nome_d, int idade, int cpf_s) {
         this.id = id;
         this.nome_d = nome_d;
         this.idade = idade;
+        this.cpf_s = cpf_s;
+    }
+    public int getCpf_s() {
+        return cpf_s;
+    }
+    public void setCpf_s(int cpf_s) {
+        this.cpf_s = cpf_s;
     }
 
     public int getId() {
